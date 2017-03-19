@@ -46,6 +46,10 @@ public class IndexServlet extends HttpServlet {
 		{
 			resp.sendRedirect(req.getContextPath() + "/accountCreation");
 		}
+		else if (req.getParameter("make reservation") != null)
+		{
+			resp.sendRedirect(req.getContextPath() + "/reservations");
+		}
 		else
 		{
 			throw new ServletException("Unknown Command");

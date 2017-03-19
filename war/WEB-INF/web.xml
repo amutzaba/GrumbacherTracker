@@ -35,6 +35,11 @@
     <servlet-class>edu.ycp.cs320.jporter7.servlet.AccountCreationServlet</servlet-class>
   </servlet>
   
+  <servlet>
+    <servlet-name>ReservationsServlet</servlet-name>
+    <servlet-class>edu.ycp.cs320.jporter7.servlet.ReservationsServlet</servlet-class>
+  </servlet>
+  
   <!-- AJAX servlets. -->
   <servlet>
     <servlet-name>GrumbacherAjaxServlet</servlet-name>
@@ -61,6 +66,11 @@
     <servlet-class>edu.ycp.cs320.jporter7.servlet.ajax.AccountCreationAjaxServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>ReservationsAjaxServlet</servlet-name>
+    <servlet-class>edu.ycp.cs320.jporter7.servlet.ajax.ReservationsAjaxServlet</servlet-class>
+  </servlet>
+  
   <!-- Servlet mappings -->
   <servlet-mapping>
     <servlet-name>IndexServlet</servlet-name>
@@ -91,6 +101,11 @@
     <url-pattern>/accountCreation</url-pattern>
   </servlet-mapping>
   
+  <servlet-mapping>
+    <servlet-name>ReservationsServlet</servlet-name>
+    <url-pattern>/Reservations</url-pattern>
+  </servlet-mapping>
+  
   <!--  AJAX servlet mappings. -->
   <servlet-mapping>
     <servlet-name>GrumbacherAjaxServlet</servlet-name>
@@ -119,6 +134,11 @@
   <servlet-mapping>
     <servlet-name>AccountCreationAjaxServlet</servlet-name>
     <url-pattern>/ajax/accountCreation</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ReservationsAjaxServlet</servlet-name>
+    <url-pattern>/ajax/Reservations</url-pattern>
   </servlet-mapping>
   
 </web-app>

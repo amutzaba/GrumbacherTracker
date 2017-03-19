@@ -14,6 +14,7 @@
 			<input type="Submit" name="GuessingGame" value="Guessing Game!">
 			<input type="Submit" name="WeightRoom" value="Weight Room!">
 			<input type="Submit" name="Create Account" value="Create Account!">
+            <input type="Submit" name="make reservation" value="make reservation!">
 		</form>
 		
 	</body>
